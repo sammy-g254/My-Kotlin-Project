@@ -42,4 +42,15 @@ if(username==correctusername&&password==correctpassword){
         else{
             println("you are not eligible for driving")
             }
+
+
+//A program to ask user for a number then checks if its even or odd
+print ("Enter a number")
+val num=readLine()
+if(num?.toIntOrNull() ?: 0 % 2 == 0){
+    println("Number is even")
+    }
+    else{
+        println("Number is odd")
+        }
 }
