@@ -4,6 +4,9 @@ class car{
     var brand:String=""
     var model:String=""
     var year:String=""
+    fun displayinfo(){
+        println("This is a $brand $model from $year")
+    }
 }
 fun main(){
     //Creating an object (an instance) from the class
@@ -11,5 +14,6 @@ fun main(){
     mycar.brand="Mitsubishi"
     mycar.model="Lancer"
     mycar.year="2015"
-    println("Brand: ${mycar.brand}, Model: ${mycar.model}, Year: ${
+    println("Brand: ${mycar.brand}, Model: ${mycar.model}, Year: ${mycar.year}")
+    mycar.displayinfo()
 }
